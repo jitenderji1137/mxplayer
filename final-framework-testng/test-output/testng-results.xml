@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-12T02:36:18 IST" name="Default suite" finished-at="2023-04-12T02:37:52 IST" duration-ms="94081">
+    <groups>
+    </groups>
+    <test started-at="2023-04-12T02:36:18 IST" name="Default test" finished-at="2023-04-12T02:37:52 IST" duration-ms="94081">
+      <class name="com.training.sanity.tests.MXplayer">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:18 IST" name="setUpBeforeClass" finished-at="2023-04-12T02:36:18 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:18 IST" name="setUp" finished-at="2023-04-12T02:36:23 IST" duration-ms="5171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_013()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:23 IST" name="TC_013" finished-at="2023-04-12T02:36:24 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_013 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:24 IST" name="tearDown" finished-at="2023-04-12T02:36:25 IST" duration-ms="1307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:25 IST" name="setUp" finished-at="2023-04-12T02:36:27 IST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_014()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:27 IST" name="TC_014" finished-at="2023-04-12T02:36:29 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_014 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:29 IST" name="tearDown" finished-at="2023-04-12T02:36:30 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:30 IST" name="setUp" finished-at="2023-04-12T02:36:32 IST" duration-ms="2382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_015()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:32 IST" name="TC_015" finished-at="2023-04-12T02:36:32 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_015 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:32 IST" name="tearDown" finished-at="2023-04-12T02:36:33 IST" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:33 IST" name="setUp" finished-at="2023-04-12T02:36:36 IST" duration-ms="2331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_216()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:36:36 IST" name="TC_216" finished-at="2023-04-12T02:37:06 IST" duration-ms="30676" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIJAYJI1137', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\trade\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed66d08e6a92f549376d79bdf875cfe7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIJAYJI1137', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\trade\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed66d08e6a92f549376d79bdf875cfe7
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at com.training.pom.FilterByTeluguMoviesPOM.Filter_By_Telugu_Movies(FilterByTeluguMoviesPOM.java:29)
+at com.training.sanity.tests.MXplayer.TC_216(MXplayer.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_216 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:06 IST" name="tearDown" finished-at="2023-04-12T02:37:08 IST" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:08 IST" name="setUp" finished-at="2023-04-12T02:37:10 IST" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_217()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:10 IST" name="TC_217" finished-at="2023-04-12T02:37:11 IST" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_217 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:11 IST" name="tearDown" finished-at="2023-04-12T02:37:12 IST" duration-ms="1265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:12 IST" name="setUp" finished-at="2023-04-12T02:37:16 IST" duration-ms="3317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_218()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:16 IST" name="TC_218" finished-at="2023-04-12T02:37:17 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_218 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:17 IST" name="tearDown" finished-at="2023-04-12T02:37:19 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:19 IST" name="setUp" finished-at="2023-04-12T02:37:21 IST" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_219()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:21 IST" name="TC_219" finished-at="2023-04-12T02:37:23 IST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_219 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:23 IST" name="tearDown" finished-at="2023-04-12T02:37:24 IST" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:24 IST" name="setUp" finished-at="2023-04-12T02:37:26 IST" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_220()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:26 IST" name="TC_220" finished-at="2023-04-12T02:37:27 IST" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_220 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:27 IST" name="tearDown" finished-at="2023-04-12T02:37:29 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:29 IST" name="setUp" finished-at="2023-04-12T02:37:31 IST" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_221()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:31 IST" name="TC_221" finished-at="2023-04-12T02:37:32 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_221 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:32 IST" name="tearDown" finished-at="2023-04-12T02:37:33 IST" duration-ms="1223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:33 IST" name="setUp" finished-at="2023-04-12T02:37:35 IST" duration-ms="2651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_222()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:35 IST" name="TC_222" finished-at="2023-04-12T02:37:40 IST" duration-ms="4556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_222 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:40 IST" name="tearDown" finished-at="2023-04-12T02:37:41 IST" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:41 IST" name="setUp" finished-at="2023-04-12T02:37:44 IST" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_223()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:44 IST" name="TC_223" finished-at="2023-04-12T02:37:46 IST" duration-ms="2206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_223 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:46 IST" name="tearDown" finished-at="2023-04-12T02:37:47 IST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:47 IST" name="setUp" finished-at="2023-04-12T02:37:49 IST" duration-ms="2383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_224()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:49 IST" name="TC_224" finished-at="2023-04-12T02:37:51 IST" duration-ms="1675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_224 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MXplayer@188715b5]" started-at="2023-04-12T02:37:51 IST" name="tearDown" finished-at="2023-04-12T02:37:52 IST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.MXplayer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
