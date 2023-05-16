@@ -19,7 +19,7 @@ public class NewandFreeVisibilityPOM {
 	
 	public void validate_new_and_free() {
 		String text = this.newfreebtn.getText();
-		Assert.assertEquals(text, "New & Free🔥");
+		Assert.assertEquals(text, "New & Hot🔥");
 		System.out.println(text);
 		System.out.println("TC_015 has passed");
 	}

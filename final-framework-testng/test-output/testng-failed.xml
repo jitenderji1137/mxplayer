@@ -5,7 +5,8 @@
     <classes>
       <class name="com.training.sanity.tests.MXplayer">
         <methods>
-          <include name="TC_216"/>
+          <include name="TC_014"/>
+          <include name="TC_223"/>
           <include name="setUpBeforeClass"/>
           <include name="setUp"/>
           <include name="tearDown"/>
